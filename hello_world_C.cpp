@@ -6,7 +6,7 @@ int main() {
 	char idioma;
 	setlocale(LC_ALL,"Portuguese");
 	setlocale(LC_ALL,"Spanish");
-	printf("Inglês/English/Inglés(I), Português/Portuguese/Portugués(P), Espanhol/Spanish/Español(E) ou/or/o todas/all(T)? ");
+	printf("InglÃªs/English/InglÃ©s(I), PortuguÃªs/Portuguese/PortuguÃ©s(P) ou Espanhol/Spanish/EspaÃ±ol(E)? ");
 	scanf("%c",&idioma);
 	if (idioma == 'I' || idioma == 'i') {
 		// em C
@@ -18,22 +18,14 @@ int main() {
 	} else if (idioma == 'P' || idioma == 'p') {
 		// em C
 		printf("(Em C)\n");
-		printf("Olá, Mundo!\n");
+		printf("OlÃ¡, Mundo!\n");
 		// em C++
 	    cout << endl << "(Em C++)" << endl;
-	    cout << "Olá, Mundo!";
+	    cout << "OlÃ¡, Mundo!";
 	} else if(idioma == 'E' || idioma == 'e') {
 		//em C
 		printf("(Em C)\n");
-		printf("¡Hola, Mundo!\n");
+		printf("Â¡Hola, Mundo!\n");
 		// em C++
 		cout << "Em C++" << endl;
-		cout << "¡Hola, Mundo!";
-	} else if (idioma == 'T' || idioma == 't') {
-		//em C
-		printf("(Em C)\n");
-		printf("Olá,Mundo!\nHello,World!\n¡Hola,Mundo!\n");
-		//em C++
-		cout << endl << "(Em C++)" << endl << "Olá,Mundo!" << endl << "Hello,World!" << endl << "¡Hola,Mundo!";
-	}
-}
+		cout << "Â¡Hola, Mundo!";
